@@ -1,16 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-function Run  () {
- return( 
+function Run() {
+  return (
     <>
-  <App /> 
- <h1>Hi there</h1>
- </>) 
+      <App />
+    </>
+  );
 }
 
-ReactDOM.render(
-    <Run/>, 
-document.getElementById("root")
-);
+ReactDOM.render(<Run />, document.getElementById("root"));
